@@ -12,26 +12,19 @@
 <body>
     <div id="container">
         <div id="container-draw">
-            <div id="colors"></div>
+            <div id="colors">
+                <!-- Novo input color para seleção de cor -->
+                <input type="color" id="color-picker" value="#FFFFFF" />
+                <!-- Botão de apagar -->
+                <button id="erase-btn" class="erase-btn">Apagar</button>
+            </div>
             <div id="draw-zone"></div>
         </div>
-
-
-
-
     </div>
-
 
     <div id="ops">+</div>
     <button class="op-btn generate-btn">copiar array</button>
     <button class="op-btn test-btn">testar array</button>
-
-    <!-- <div id="modal-set-data" class="none">
-        <div class="modal-content">
-            <div id="txt"></div>
-            <button>copiar</button>
-        </div>
-    </div> -->
 
     <script src="script.js"></script>
 </body>
